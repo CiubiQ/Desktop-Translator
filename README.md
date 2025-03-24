@@ -1,32 +1,32 @@
 # Screen Translator
 
-**Screen Translator** to aplikacja desktopowa, która umożliwia użytkownikom przechwytywanie wybranego obszaru ekranu, wyodrębnianie tekstu z obrazu za pomocą technologii OCR (Optical Character Recognition) i tłumaczenie go na wybrany język. Narzędzie to jest idealne do tłumaczenia tekstu widocznego na ekranie, takiego jak obrazy, filmy czy inne treści, których nie można łatwo skopiować.
+**Screen Translator** is a desktop application that allows users to capture a selected area of the screen, extract text from the image using OCR (Optical Character Recognition) technology, and translate it into a chosen language. This tool is ideal for translating text visible on the screen, such as images, videos, or other content that cannot be easily copied.
 
-## Funkcje
-- Łatwe przechwytywanie wybranego obszaru ekranu.
-- Wyodrębnianie tekstu z obrazów za pomocą OCR.
-- Tłumaczenie wyodrębnionego tekstu na wybrany język.
-- Przyjazny interfejs użytkownika, który pozostaje na wierzchu innych okien.
-- Lekka i wydajna konstrukcja.
+## Features
+- Easy capture of the selected screen area.
+- Extraction of text from images using OCR.
+- Translation of the extracted text into the chosen language.
+- User-friendly interface that stays on top of other windows.
+- Lightweight and efficient design.
 
-## Użyte technologie
-- **C#** z **WPF** do tworzenia interfejsu graficznego.
-- **Tesseract.NET** do rozpoznawania tekstu (OCR).
-- **Google Translate API** lub **MyMemory API** do tłumaczenia.
-- **System.Drawing** do przechwytywania ekranu.
+## Technologies Used
+**C#** with **WPF** for creating the graphical user interface.
+**Tesseract.NET** for text recognition (OCR).
+**Google Translate API** or **MyMemory API** for translation.
+**System.Drawing** for screen capture.
 
-## Wymagania wstępne
-Aby uruchomić ten projekt, upewnij się, że masz zainstalowane:
-- [.NET Framework](https://dotnet.microsoft.com/download) (wersja 4.7.2 lub wyższa).
-- [Visual Studio](https://visualstudio.microsoft.com/) (Community Edition lub wyższe) do budowania projektu.
-- [Git](https://git-scm.com/) do klonowania repozytorium.
+## Prerequisites
+To run this project, ensure you have the following installed:
+- [.NET Framework](https://dotnet.microsoft.com/download) (version 4.7.2 or higher).
+- [Visual Studio](https://visualstudio.microsoft.com/) (Community Edition or higher) for building the project.
+- [Git](https://git-scm.com/) for cloning the repository.
 
-## Instrukcje konfiguracji
+## Setup Instructions
 
-Postępuj zgodnie z poniższymi krokami, aby skonfigurować projekt na swoim komputerze:
+Follow these steps to set up the project on your computer:
 
-### 1. Sklonuj repozytorium
-Sklonuj projekt na swój lokalny system za pomocą poniższego polecenia:
+### 1. Clone the Repository
+Clone the project to your local system using the following command:
 ```bash
 git clone https://github.com/yourusername/ScreenTranslator.git
 cd ScreenTranslator
